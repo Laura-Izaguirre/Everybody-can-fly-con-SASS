@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #a3dcef;
+    &_caption {
+    }
+
+    .navigation {
+        &__list {
+            display: flex;
+            &__item {
+                list-style: none;
+                margin: 0 1.5rem;
+                &__link:link, &__link:active {
+                    text-decoration: none;
+                }
+                &__link:hover, &__link:active {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.main {
+    &__sub {
+        margin-left: 2.5%;
+    }
+    .popular_destinations {
+        display: flex;
+        justify-content: space-around;
+        &__div {
+            width: 20%;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            &__image {
+                width: 20rem;
+                height: 10rem;
+            } 
+            &__button {
+                width: 20rem;
+            }          
+        }
+    }
+
+    .travel_packages {
+        display: flex;
+        justify-content: space-around;
+        &__div {
+            &__image {
+                width: 20rem;
+                height: 10rem;
+            }
+            &__sub {
+
+            }
+            &__price {
+
+            }
+            &__description {
+                width: 20rem;
+            }
+            &__button {
+
+            }
+        }
+    }
+
+    .form {
+        &__sub {
+            padding-left: 2.5%;
+        }
+        .contact_form {
+            display: flex;
+            flex-direction: column;
+            &__description {
+
+            }
+
+            &__description {
+                padding-left: 2.5%;
+            }
+
+            &__input {
+                align-self: center;
+                width: 95%;
+            }
+
+            &__submit_input {
+                margin-left: 2.5%;
+                width: 5rem;
+            }
+        }
+    }
+
+}
+
+.footer {
+    background-color: #a3dcef;
+    .rights {
+        text-align: center;
+    }
+}

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #a3dcef;
+}
+.header .navigation__list {
+  display: flex;
+}
+.header .navigation__list__item {
+  list-style: none;
+  margin: 0 1.5rem;
+}
+.header .navigation__list__item__link:link, .header .navigation__list__item__link:active {
+  text-decoration: none;
+}
+.header .navigation__list__item__link:hover, .header .navigation__list__item__link:active {
+  text-decoration: underline;
+}
+
+.main__sub {
+  margin-left: 2.5%;
+}
+.main .popular_destinations {
+  display: flex;
+  justify-content: space-around;
+}
+.main .popular_destinations__div {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .popular_destinations__div__image {
+  width: 20rem;
+  height: 10rem;
+}
+.main .popular_destinations__div__button {
+  width: 20rem;
+}
+.main .travel_packages {
+  display: flex;
+  justify-content: space-around;
+}
+.main .travel_packages__div__image {
+  width: 20rem;
+  height: 10rem;
+}
+.main .travel_packages__div__description {
+  width: 20rem;
+}
+.main .form__sub {
+  padding-left: 2.5%;
+}
+.main .form .contact_form {
+  display: flex;
+  flex-direction: column;
+}
+.main .form .contact_form__description {
+  padding-left: 2.5%;
+}
+.main .form .contact_form__input {
+  align-self: center;
+  width: 95%;
+}
+.main .form .contact_form__submit_input {
+  margin-left: 2.5%;
+  width: 5rem;
+}
+
+.footer {
+  background-color: #a3dcef;
+}
+.footer .rights {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
