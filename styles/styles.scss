@@ -9,6 +9,7 @@
     flex-direction: row;
     align-items: center;
     background-color: #a3dcef;
+    padding-left: 2.5%;
     &_caption {
     }
 
@@ -47,6 +48,10 @@
             } 
             &__button {
                 width: 20rem;
+                background-color: #00437a;
+                color: white;
+                border: none;
+                padding: 0.5rem;
             }          
         }
     }
@@ -69,7 +74,11 @@
                 width: 20rem;
             }
             &__button {
-
+                width: 20rem;
+                background-color: #00437a;
+                color: white;
+                border: none;
+                padding: 0.5rem;
             }
         }
     }
@@ -92,11 +101,24 @@
             &__input {
                 align-self: center;
                 width: 95%;
+                border: 0.1rem #e17cb4 solid;
+                &__text {
+                    height: 5rem;
+                }
+            }
+
+            &__input:focus {
+                outline-color: #e3419a;
             }
 
             &__submit_input {
                 margin-left: 2.5%;
                 width: 5rem;
+                background-color: #f54e07;
+                color: white;
+                border: none;
+                border-radius: 5%;
+                padding: 0.5rem;
             }
         }
     }

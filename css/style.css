@@ -8,6 +8,7 @@
   flex-direction: row;
   align-items: center;
   background-color: #a3dcef;
+  padding-left: 2.5%;
 }
 .header .navigation__list {
   display: flex;
@@ -42,6 +43,10 @@
 }
 .main .popular_destinations__div__button {
   width: 20rem;
+  background-color: #00437a;
+  color: white;
+  border: none;
+  padding: 0.5rem;
 }
 .main .travel_packages {
   display: flex;
@@ -53,6 +58,13 @@
 }
 .main .travel_packages__div__description {
   width: 20rem;
+}
+.main .travel_packages__div__button {
+  width: 20rem;
+  background-color: #00437a;
+  color: white;
+  border: none;
+  padding: 0.5rem;
 }
 .main .form__sub {
   padding-left: 2.5%;
@@ -67,10 +79,22 @@
 .main .form .contact_form__input {
   align-self: center;
   width: 95%;
+  border: 0.1rem #e17cb4 solid;
+}
+.main .form .contact_form__input__text {
+  height: 5rem;
+}
+.main .form .contact_form__input:focus {
+  outline-color: #e3419a;
 }
 .main .form .contact_form__submit_input {
   margin-left: 2.5%;
   width: 5rem;
+  background-color: #f54e07;
+  color: white;
+  border: none;
+  border-radius: 5%;
+  padding: 0.5rem;
 }
 
 .footer {
