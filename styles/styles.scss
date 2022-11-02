@@ -3,14 +3,15 @@
     padding: 0;
 }
 
-
 .header {
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #a3dcef;
     padding-left: 2.5%;
-    &_caption {
+    padding: 1rem 0rem 1rem 2.5%;
+    &__caption {
+        color: #a94d89;
     }
 
     .navigation {
@@ -19,11 +20,15 @@
             &__item {
                 list-style: none;
                 margin: 0 1.5rem;
+                &__link {
+                    color: #a94d89;
+                }
                 &__link:link, &__link:active {
                     text-decoration: none;
                 }
                 &__link:hover, &__link:active {
-                    text-decoration: underline;
+                    border-bottom: 1px solid #a94d89;
+                    padding-bottom: 0.2rem;
                 }
             }
         }
@@ -33,16 +38,27 @@
 .main {
     &__sub {
         margin-left: 2.5%;
+        padding: 1.5rem 0;
+        color: #943ba2;
+       
     }
     .popular_destinations {
         display: flex;
         justify-content: space-around;
+        padding-top: 1.5rem;
         &__div {
             width: 20%;
             display: flex;
             flex-direction: column; 
             align-items: center;
+            margin-top: -1.5rem;
+
+            &__sub {
+                padding-bottom: 0rem;
+            }
+
             &__image {
+                border: 0.1rem black solid;
                 width: 20rem;
                 height: 10rem;
             } 
@@ -52,6 +68,7 @@
                 color: white;
                 border: none;
                 padding: 0.5rem;
+                margin-top: 1rem;
             }          
         }
     }
@@ -65,13 +82,14 @@
                 height: 10rem;
             }
             &__sub {
-
+                color: #4e1474;
             }
             &__price {
-
+                color: #e17cb4;
             }
             &__description {
                 width: 20rem;
+                color: #93719d;
             }
             &__button {
                 width: 20rem;
@@ -79,13 +97,17 @@
                 color: white;
                 border: none;
                 padding: 0.5rem;
+                margin-top: 1rem;
             }
         }
     }
 
     .form {
         &__sub {
-            padding-left: 2.5%;
+            text-align: center;
+            padding: 1.5rem 0;
+            color: #943ba2;
+
         }
         .contact_form {
             display: flex;
@@ -101,6 +123,7 @@
             &__input {
                 align-self: center;
                 width: 95%;
+                margin: 0.5rem 0;
                 border: 0.1rem #e17cb4 solid;
                 &__text {
                     height: 5rem;
@@ -119,6 +142,7 @@
                 border: none;
                 border-radius: 5%;
                 padding: 0.5rem;
+                margin-bottom: 4rem;
             }
         }
     }
@@ -129,5 +153,7 @@
     background-color: #a3dcef;
     .rights {
         text-align: center;
+        color: #a94d89;
+        padding: 1rem 0;
     }
 }
